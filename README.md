@@ -1,2 +1,3 @@
 # Alston-SuccessJourney
-This is my first complete Github Repo
+This is my first complete Github Repo.
+Author- Alston
