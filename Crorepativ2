@@ -1,0 +1,50 @@
+print("Welcome to \"Kaun Banega Crorepati\"")
+amt=0
+print("Whats your name?")
+name=input()
+print("Have a seat",name,"!")
+print("You are going to play a game of 3 questions with 4 options each")
+print("You will get some amount of Dollars for each correct answer")
+print("Are you ready?")
+ready=input()
+if ready=="yes":
+    print("ALL THE BEST")
+else:
+    print("That wasnt expected, Bye!")
+    exit()
+q1=["Which is the largest continent in the world?","Africa", "Asia", "North America", "South America"]
+print (q1[0])
+print ("Options: ",q1[1:])
+ans1=input("Answer: ")
+if(ans1=="Asia"):
+        print ("Correct! You have won 1000$")
+        amt=1000
+else:
+        print ("Wrong! The correct answer is Asia")
+        print ("You have won nothing")
+        exit()
+
+q2=["Which is the largest country in the world?","USA", "China", "Russia", "India"]
+print (q2[0])
+print ("Options: ",q2[1:])
+ans2= input("Answer: ")
+if(ans2=="Russia"):
+        print ("Correct! You have won 10000$")
+        amt=10000
+else:
+        print ("Wrong! The correct answer is Asia")
+        print ("You have won nothing")
+        exit()
+q3=["Which is the largest ocean in the world?","Atlantic", "Indian", "Arctic", "Pacific"]
+print(q3[0])
+print("Options: ",q3[1:])
+ans3= input("Answer: ")
+if(ans3=="Pacific"):
+    print("Correct! You have won 100000$")
+    amt=100000
+else:
+    print("Wrong! The correct answer is Pacific")
+    print("You have won 10000$")
+    exit()
+print("Congratulations! You have won 100000$")
+print("You are a millionaire now!")
